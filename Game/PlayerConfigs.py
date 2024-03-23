@@ -87,7 +87,7 @@ class Player_Controller:
     
     def secondary_on_cd(self, get_timer):
         if get_timer:
-            return self._primary_skill.get_cooldown()
+            return self._secondary_skill.get_cooldown()
         else: 
             return self._secondary_skill.on_cooldown()
     
